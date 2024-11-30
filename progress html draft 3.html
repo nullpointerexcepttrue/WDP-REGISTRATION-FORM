@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HackerHub Registration</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>HackerHub</h1>
+        <form action="#">
+            <input type="text" name="username" placeholder="Enter your username" required>
+            <input type="email" name="email" placeholder="Enter your email" required>
+            <input type="password" name="password" placeholder="Create a password" required>
+            <input type="password" name="confirm-password" placeholder="Confirm password" required>
+
+            <div class="radio-container">
+                <label for="programming-language">What’s your favorite programming language?</label>
+                <div class="choices">
+                    <input type="radio" id="python" name="programming-language" value="Python" required>
+                    <label for="python">Python</label>
+                    
+                    <input type="radio" id="javascript" name="programming-language" value="JavaScript">
+                    <label for="javascript">JavaScript</label>
+
+                    <input type="radio" id="java" name="programming-language" value="Java">
+                    <label for="java">Java</label>
+
+                    <input type="radio" id="cpp" name="programming-language" value="C++">
+                    <label for="cpp">C++</label>
+
+                    <input type="radio" id="go" name="programming-language" value="Go">
+                    <label for="go">Go</label>
+
+                    <input type="radio" id="ruby" name="programming-language" value="Ruby">
+                    <label for="ruby">Ruby</label>
+
+                    <input type="radio" id="php" name="programming-language" value="PHP">
+                    <label for="php">PHP</label>
+
+                    <input type="radio" id="typescript" name="programming-language" value="TypeScript">
+                    <label for="typescript">TypeScript</label>
+
+                    <input type="radio" id="swift" name="programming-language" value="Swift">
+                    <label for="swift">Swift</label>
+
+                    <input type="radio" id="rust" name="programming-language" value="Rust">
+                    <label for="rust">Rust</label>
+                </div>
+            </div>
+
+            <button type="submit" class="submit-btn">Register</button>
+        </form>
+        <a href="#" class="link">Already have an account? Login</a>
+    </div>
+
+</body>
+</html>
